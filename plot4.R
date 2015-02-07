@@ -15,7 +15,7 @@ par(mfrow=c(2,2))
 {
         plot(dataSet$data_time,dataSet$Global_active_power,pch="",
              xlab="",
-             ylab="Global Active Power (kilowatts)")
+             ylab="Global Active Power")
         lines(dataSet$data_time,dataSet$Global_active_power)
         
         plot(dataSet$data_time,dataSet$Voltage,pch="",
